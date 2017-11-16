@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: product-command-side
+    name: application
   cloud:
     config:
       uri: http://ms-config-server:8888
