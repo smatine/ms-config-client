@@ -1,0 +1,12 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+      uri: http://ms-config-server-toto.apps.oc.smatine.com
+      failFast: true
+      retry:
+        initialInterval: 2000
+        maxAttempts: 30
