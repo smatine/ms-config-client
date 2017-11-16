@@ -5,7 +5,7 @@ spring:
     name: application
   cloud:
     config:
-      uri: http://ms-config-server:8888
+      uri: http://ms-config-server-toto.apps.oc.smatine.com/application/default
       failFast: true
       retry:
         initialInterval: 2000
