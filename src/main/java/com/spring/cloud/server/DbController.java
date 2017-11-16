@@ -12,20 +12,21 @@ import org.springframework.web.bind.annotation.RestController;
 public class DbController {
 	//@Value("${driverClassName}")
 	//String driverClassName;
-	@Value("${url}")
+	/*@Value("${url}")
 	String url;
 	@Value("${username}")
 	String username;
 	@Value("${password}")
-	String password;
+	String password;*/
 	
 	@RequestMapping(value="/db", method=RequestMethod.GET)
 	public String getDbDetails(){
-		Map<String, String> dbMap = new HashMap<>();
+		//Map<String, String> dbMap = new HashMap<>();
 		//dbMap.put("driverClassName", driverClassName);
-		dbMap.put("url", url);
+		/*dbMap.put("url", url);
 		dbMap.put("username", username);
 		dbMap.put("password", password);
-		return dbMap.toString();
+		return dbMap.toString();*/
+		return "toto";
 	}
 }
